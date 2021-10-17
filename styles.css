@@ -185,6 +185,20 @@ footer {
    }
 }
 
+/* standard screen styles */
+@media screen and (min-width: 1000px) {
+   section.info {
+      width: 65%;
+      margin-top: 1em;
+      float: left;
+   }
+   section.locations {
+      width: 35%;
+      float: right;
+      text-align: right;
+   }
+}
+
 /* print styles */
 @media print {
    body, h2, article {
