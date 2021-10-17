@@ -77,7 +77,7 @@ header {
    padding: 0 0.4em 0.4em;
 }
 h1 {
-   text-align: center;
+   text-align: left;
    font-family: "Playfair Display", "Times New Roman", Times, serif;
    font-size: 2.5em;
    font-weight: 900;
@@ -162,6 +162,27 @@ footer {
    background-color: black;
    color: white;
    text-align: center;
+}
+
+/* small screen/tablet styles */
+@media screen and (min-width: 720px) {
+   body {
+      padding: 1em;
+   }
+   h1 {
+      font-size: 2.5em;
+      line-height: 1.4em;
+      text-align: center;
+   }
+   p.decorative-image {
+      width: 30%;
+      padding-top: 1em;
+      float: left;
+      display: inline;
+   }
+   footer {
+      margin-left: 30%;
+   }
 }
 
 /* print styles */
