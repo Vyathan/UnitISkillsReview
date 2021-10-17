@@ -199,6 +199,13 @@ footer {
    }
 }
 
+/* large screen styles */
+@media screen and (min-width: 1238px) {
+   body {
+      width: 1200px;
+   }
+}
+
 /* print styles */
 @media print {
    body, h2, article {
